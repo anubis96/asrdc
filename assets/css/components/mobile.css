@@ -1,0 +1,94 @@
+.mobile-content{
+    top: 0;
+    background-color: var(--main-color-white);
+    width: 100%;
+    height: 100vh;
+    margin-left: 100%;
+    z-index: 99999;
+    transition: all 2s;
+}
+
+.mobile-left .mobile-content {
+    top: 0;
+    left: 0;
+    margin-left: -100%;
+}
+.mobile-right .mobile-content {
+    top: 0;
+    right: 0;
+    margin-right: -100%;
+}
+
+.mobile.mobile-left .mobile-content{
+    animation: 1s linear slideInFromLeftToRight forwards;
+}
+.mobile.mobile-left.close .mobile-content{
+    animation: 1s linear slideOutFromRightToLeft forwards;
+}
+/*** MOBILE NAV ***/
+.mobile.mobile-right .mobile-content{
+    animation: 1s linear slideInFromRightToLeft forwards;
+}
+.mobile.mobile-right.close .mobile-content{
+    animation: 1s linear slideOutFromLeftToRight forwards;
+}
+
+/*** FIN MOBILE NAV ***/
+
+.mobile-content .mobile-title h2{
+    text-transform: uppercase;
+    color: var(--main-color);
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 20px 0;
+    border-bottom: 2px solid var(--main-color);
+}
+.mobile-content .mobile-close {
+    background-color: var(--main-color-white);
+    border-radius: 50px;
+    padding: 5px;
+    top: 20px;
+    right: 20px;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid var(--main-color-black);
+}
+
+.mobile-content .mobile-nav-item{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 50px;
+    line-height: 50px;
+    border-top: 2px solid var(--main-color-white);
+    border-bottom: 2px solid var(--main-color-white);
+}
+.mobile-content .mobile-nav-item.active,
+.mobile-content .mobile-nav-item:hover{
+    border-top: 2px solid var(--main-color);
+    border-bottom: 2px solid var(--main-color);
+    color: var(--main-color);
+    cursor: pointer;
+}
+
+.mobile-content-footer{
+    margin-top: 50%;
+}
+.mobile-content-footer ul{
+    justify-content: center;
+    gap: 20px;
+}
+.mobile-content-footer ul li{
+    border: 1px solid var(--main-color);
+    padding: 20px;
+    color: var(--main-color);
+    border-radius: 50px;
+}
+.mobile-content-footer a i{
+    font-size: 1.5rem;
+}

@@ -1,0 +1,17 @@
+:root{
+    --main-color: #0455cf;
+    --main-color-shadow: #99bff8;
+    --main-color-moyen: #0249b3;
+    --main-color-plus: #023d96;
+    --main-color-wh: rgb(212, 211, 211);
+    --main-color-white: white;
+    --main-color-black: #1d1d1d;
+    --main-color-gray: gray;
+    --main-color-orange: orange;
+    --main-color-orangered: orangered;
+    --main-color-danger: #ff0000;
+    --main-color-success: #2ba968;
+    --main-color-suc: #6720c4;
+    --main-color-footer: #212529;
+    --main-color-ccc: #ccc;
+}

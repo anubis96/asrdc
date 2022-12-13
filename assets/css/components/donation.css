@@ -1,0 +1,191 @@
+.container-register {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 550px;
+    height: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 33%);
+    border-radius: 5px;
+    background-color: white;
+    display: none;
+    z-index: 99999;
+}
+
+.container-register .close {
+    position: absolute;
+    right: 5px;
+    font-size: 1.5rem;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.container-register .register-title {
+    padding: 0 20px;
+}
+
+.container-register .register-title h2 {
+    font-size: 2.3rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.container-register .register-title p {
+    color: gray;
+    margin: 5px 0;
+}
+.container-register .register-title .register-bank{
+    align-items: center;
+}
+.register-title .register-bank .number{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.container-register .divider {
+    border: 0.1px solid #ccc;
+    margin: 10px 0;
+}
+
+/******************* REGISTER FORM ********************/
+.container-register .register-form {
+    padding: 10px;
+}
+
+.container-register .register-form input {
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+.form-inline-input textarea{
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ccc;
+    font-size: 1.1rem;
+    width: 100%;
+}
+
+.container-register .register-form .form-group-input {
+    display: flex;
+    margin-bottom: 5px;
+    gap: 5px;
+}
+
+.container-register .register-form .form-inline-input {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.container-register .register-form .form-inline-input input,
+.container-register .register-form .form-group-input input {
+    flex: 1;
+    font-size: 1.15rem;
+}
+
+.container-register .form-select-date {
+    display: flex;
+    gap: 5px;
+}
+
+.container-register .form-select-date select {
+    flex: 1;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 1.2rem;
+}
+
+.container-register .form-radio-items {
+    text-align: center;
+    display: flex;
+    gap: 5px;
+    margin: 5px 0;
+}
+
+.container-register .form-radio-items .form-radio-item {
+    border: 1px solid #ccc;
+    flex: 1;
+    border-radius: 5px;
+}
+
+.container-register .form-radio-items .form-radio-item label {
+    position: relative;
+    bottom: 15px;
+}
+
+.container-register .form-register-infos {
+    font-size: 0.9em;
+    text-align: justify;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.container-register .form-register-button {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.container-register .form-register-button .bt-register-submit {
+    background-color: #00a400;
+    width: 200px;
+    color: white;
+    height: 36px;
+    line-height: 5px;
+}
+
+.container-register .form-inline-date p,
+.container-register .form-inline-genre p {
+    color: gray;
+    font-size: 0.8em;
+}
+
+.overlay{
+    background-color: rgba(255, 255, 255, .8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 99999;
+    display: none;
+}
+/********** PAGE DONATION ***********/
+.all-donation{
+    background-color: var(--main-color);
+    padding: 20px 0;
+}
+ul .tab::before{
+    content: ' ';
+}
+.donation-items{
+    width: 100%;
+}
+.my-form{
+    width: 100%;
+}
+@media screen and (max-width:600px) {
+    .container-register {
+        width: 360px;
+    }
+
+    .container-register .register-form .form-inline-input input,
+    .container-register .register-form .form-group-input input {
+        font-size: 0.8rem;
+    }
+
+    .container-register .form-radio-items .form-radio-item{
+        bottom: 15px;
+        font-size: 0.8em;
+    }
+    .container-register .form-select-date select {
+        height: 30px;
+        font-size: 1rem;
+    }
+    .container-register .form-register-infos {
+        font-size: 0.85em;
+        margin-bottom: 5px;
+    }
+}

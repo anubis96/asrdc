@@ -1,0 +1,101 @@
+.domaine-intervention{
+    background-color: rgb(241, 219, 178);
+}
+.domaine-items{
+    padding: 10px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.domaine-title{
+    text-align: center;
+}
+.domaine-items .item{
+    width: 300px;
+    text-align: justify;
+}
+.item i{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.item-title h4{
+    margin-bottom: 5px;
+}
+.item .item-description{
+    color: var(--main-color-gray);
+}
+.item .item-menus{
+    font-weight: bold;
+}
+.domaine-items-one .savonnerie i, 
+.savonnerie .item-menus, .savonnerie .item-title {
+    color: blueviolet;
+}
+.domaine-items-one .informatique i, 
+.informatique .item-menus, .informatique .item-title {
+    color: rgb(226, 43, 134);
+}
+.domaine-items-one .couture i, 
+.couture .item-menus, .couture .item-title {
+    color: rgb(43, 226, 67);
+}
+.domaine-items-two .patisserie i, 
+.patisserie .item-menus, .patisserie .item-title {
+    color: rgb(241, 79, 30);
+}
+.domaine-items-two .menuiserie i, 
+.menuiserie .item-menus, .menuiserie .item-title {
+    color: rgb(108, 116, 3);
+}
+.domaine-items-two .maconnerie i, 
+.maconnerie .item-menus, .maconnerie .item-title {
+    color: rgb(17, 94, 104);
+}
+
+/*********** MEDIA **********/
+
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 826px) {
+    .my-section-content .item-description{
+        top: 60%;
+        width: 80%;
+    }
+    .my-section-content .item-title{
+        top: 35%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .my-section-content .item-description{
+        top: 50%;
+        width: 80%;
+    }
+    .my-section-content .item-title{
+        top: 10%;
+    }
+    .domaine-items-one,
+    .domaine-items-two{
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+}
+@media screen and (max-width: 776px) {
+}
+@media screen and (max-width: 576px) {
+    .domaine-title h1{
+        font-size: 2rem;
+    }
+    .domaine-items .item{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 427px) {
+    .domaine-title h1{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 343px){
+}

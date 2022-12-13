@@ -1,0 +1,59 @@
+
+
+.all-contact{
+    padding: 20px 0;
+    justify-content: space-between;
+    gap: 30px;
+}
+.all-contact h5{
+    font-size: 1rem;
+    font-weight: lighter;
+    padding-bottom: 2px;
+    margin-bottom: 2px;
+}
+.all-contact .my-form{
+    flex: 1;
+}
+.all-contact .all-adresses{
+    flex: 1.8;
+}
+.map-adresse{
+    padding-top: 20px;
+    gap: 20px;
+}
+.map-mail {
+    padding-top: 20px;
+}
+.map-adresse i{
+    font-size: 2.5rem;
+}
+.map-text i{
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+    .map-adresse{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .all-contact{
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 776px) {
+}
+
+@media screen and (max-width: 576px) {
+    .all-contact{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 427px) {
+}
