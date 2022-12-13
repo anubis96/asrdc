@@ -1,5 +1,5 @@
 .bg-img1{
-    background-image: url("/assets/images/agri.jpg");
+    background-image: url("../images/agri.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 70%;
@@ -7,7 +7,7 @@
     margin-bottom: 10px;
 }
 .bg-img2{
-    background-image: url("/assets/images/atelier.webp");
+    background-image: url("../images/atelier.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 70%;
@@ -16,7 +16,7 @@
     margin-bottom: 10px;
 }
 .bg-img3{
-    background-image: url("/assets/images/vet.jpeg");
+    background-image: url("../images/vet.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 70%;
